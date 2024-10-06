@@ -1,0 +1,7 @@
+--
+playwright --version
+Version 1.47.0
+playwright install -browsers
+
+pip install requests  
+pip install python-dotenv

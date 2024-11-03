@@ -1,11 +1,14 @@
---
-playwright --version
-Version 1.47.0
-playwright install -browsers
+# Playwright for browser automation
+playwright==1.47.0
 
-pip install requests  
-pip install python-dotenv
+# Requests library for making HTTP requests
+requests
 
+# python-dotenv for loading environment variables from .env files
+python-dotenv
 
-pip install fastapi 
-pip install uvicorn
+# FastAPI for building APIs
+fastapi
+
+# Uvicorn ASGI server to run FastAPI applications
+uvicorn[standard]

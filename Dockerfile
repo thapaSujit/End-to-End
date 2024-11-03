@@ -10,8 +10,8 @@ COPY requirements.txt .
 # Install dependencies directly into the container's Python environment
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Install Playwright dependencies and browsers (required for running Playwright)
-RUN playwright install-deps && playwright install
+# Install Playwright dependencies and only the Chromium browser
+RUN playwright install-deps && playwright install chromium
 
 # Copy the application code into the container
 COPY . .

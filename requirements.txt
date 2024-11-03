@@ -5,3 +5,7 @@ playwright install -browsers
 
 pip install requests  
 pip install python-dotenv
+
+
+pip install fastapi 
+pip install uvicorn
